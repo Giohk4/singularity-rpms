@@ -19,7 +19,7 @@
 
 %global 	debug_package 	%{nil}
 %global 	snapshot    	20260610
-%global 	commit      	186b53b02db00ebdb6a91d5c052ea18eb2726719
+%global 	commit      	ccfdf4661b0d3c80349435c209ec6855ba37db82
 %global 	shortcommit 	%(c=%{commit}; echo ${c:0:7})
 
 Name:           libsingularity

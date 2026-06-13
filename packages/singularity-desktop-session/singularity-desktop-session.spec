@@ -62,23 +62,23 @@ Desktop Session for the Singularity Desktop Environment.
 
 %{_bindir}/singularity-session
 %{_bindir}/singularity-start
-
+#
 %{_datadir}/wayland-sessions/singularity.desktop
 %{_datadir}/xdg-desktop-portal/portals/singularity.portal
 %{_datadir}/accountsservice/interfaces/com.singularity.Desktop.xml
 %{_datadir}/glib-2.0/schemas/dev.sinty.desktop.gschema.xml
-
-
+#
+#
 %{_datadir}/icons/Singularity/index.theme
 %{_datadir}/icons/hicolor/scalable/apps/emblem-singularity.svg
 %{_datadir}/icons/hicolor/scalable/apps/dev.sinty.workspaces.svg
 %{_datadir}/singularity/labwc/rc.xml
 %{_datadir}/singularity/labwc/themerc
-
-
+#
+#
 %{_userunitdir}/singularity-polkit-agent.service
 %{_userunitdir}/xdg-desktop-portal-singularity.service
-%{_userunitdir}/xdg-desktop-portal-fix.service
+%{_userunitdir}/singularity-session.target
 
 
 %changelog

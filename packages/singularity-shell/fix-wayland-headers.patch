@@ -1,0 +1,10 @@
+--- a/meson.build
++++ b/meson.build
+@@ -16,6 +16,7 @@ add_project_arguments([
+   '--pkg=posix',
+   '--pkg=poppler-glib',
+   '--pkg=gtksourceview-5',
++  '--pkg=wayland_integration',
+ ], language: 'vala')
+ 
+ if get_option('buildtype').startswith('release')

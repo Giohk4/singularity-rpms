@@ -77,7 +77,7 @@ BuildRequires:	pixman-devel
 BuildRequires:	libpixman-1-0-devel
 
 
-Requires:       singularity-polkit-agent
+Requires: singularity-polkit-agent
 Requires:	libsingularity
 Requires:	labwc-sinty
 Requires:	xdg-desktop-portal-singularity
@@ -92,6 +92,7 @@ Requires:	gnome-online-accounts
 Requires:	pipewire-pulseaudio
 
 Recommends:     ibus
+Recommends:     singularity-plugins
 
 
 

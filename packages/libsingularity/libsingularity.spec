@@ -18,8 +18,8 @@
 # warranty of merchantability or fitness for a particular purpose.
 
 %global 	debug_package 	%{nil}
-%global 	snapshot    	20260610
-%global 	commit      	ccfdf4661b0d3c80349435c209ec6855ba37db82
+%global 	snapshot    	20260613
+%global 	commit      	ee69ac8e462224798c9c619b57a0699112fe7d7a
 %global 	shortcommit 	%(c=%{commit}; echo ${c:0:7})
 
 Name:           libsingularity
